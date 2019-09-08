@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <smtpHost>SMTP Hostname for Email sending</smtpHost>
+    <smtpPort>SMTP port</smtpPort>
+    <JarvisEmail>Your email Id</JarvisEmail>
+    <JarvisPasscode>Encrypted Password for your email (use encoder utility to create encypted password)</JarvisPasscode>
+    <PrimaryCustEmail>Email to receive notifications</PrimaryCustEmail>
+    <IdentifierFile>Name of the file that must be present for identification of backup drive</IdentifierFile>
+    <BackupDirName>backups</BackupDirName>
+    <CheckedPathsFileName>validated_paths</CheckedPathsFileName>
+    <BackupSummaryFileName>sos_backup.html</BackupSummaryFileName>
+    <NotificationEmailSubject>SOS Backup Notification</NotificationEmailSubject>
+    <EmailNotifications>Disabled</EmailNotifications>
+    <loggingLevel>INFO</loggingLevel>
+</configuration>
